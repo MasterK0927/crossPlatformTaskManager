@@ -131,7 +131,7 @@ class Taskmanager_Keshav(toga.App):
                 context_menu.show(widget, event.x, event.y)
 
 def main():
-    return Taskmanager_Keshav('Task Scheduler', app_id='com.example.taskManager')
+    return Taskmanager_Keshav('TaskScheduler', app_id='com.example.taskManager')
 
 if __name__ == '__main__':
     main().main_loop()
